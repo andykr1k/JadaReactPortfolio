@@ -5,10 +5,10 @@ import yt from '../assets/logos/yt.png'
 
 export default function FrontPage() {
     return (
-      <div className='grid place-items-center shadow-inner'>
+      <div className='grid place-items-center h-screen'>
         <div className='lg:flex items-center text-center lg:space-x-12 p-10'>
             <div>
-              <img src={headshot} className="lg:max-w-md	bg-purple-500 rounded-full"/>
+              <img src={headshot} className="w-48 m-auto lg:w-80	bg-purple-800 rounded-full"/>
             </div>
           <div className=''>
               <h1 className='text-5xl'>Jada Ganim</h1>
