@@ -6,11 +6,11 @@ import './App.css'
 function App() {
 
   return (
-    <div className="App">
-    <div className='absolute'>
-      <comps.Header />
+    <div className="max-h-screen">
+    <div className='sticky top-0'>
+    <comps.Header />
     </div>
-      <Pages.FrontPage />
+    <Pages.FrontPage />
       <comps.Footer />
     </div>
   )
