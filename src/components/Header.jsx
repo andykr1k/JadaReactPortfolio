@@ -10,10 +10,11 @@ export default function Header() {
               </div>
 
               <nav class="hidden space-x-8 text-sm font-medium md:flex">
-                <a class="text-gray-500" href="">About</a>
-                <a class="text-gray-500" href="">Blog</a>
-                <a class="text-gray-500" href="">Projects</a>
-                <a class="text-gray-500" href="">Contact</a>
+                <a class="text-gray-500" href="/">Home</a>
+                <a class="text-gray-500" href="/new">New Releases</a>
+                <a class="text-gray-500" href="/movies">Films</a>
+                <a class="text-gray-500" href="/ad">Ad Spotlight</a>
+                <a class="text-gray-500" href="/contact">Contact</a>
               </nav>
 
               <div class="md:hidden">

@@ -8,7 +8,7 @@ import yt from '../assets/logos/yt.png'
 export default function Footer() {
     return (
       <footer class="text-center">
-      <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
+      <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto space-y-4">
         <div className='flex items-center space-x-4 justify-center p-2'>
                 <a className="w-6" href="https://instagram.com/jadaganim">
@@ -21,12 +21,6 @@ export default function Footer() {
                 <img src={yt} />
                 </a>
           </div>
-          <p class="max-w-lg mx-auto text-xs text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, natus
-            tempore illo laborum nam, modi quam sequi amet quo quasi impedit iure
-            eum similique pariatur alias exercitationem, porro perspiciatis esse.
-            Corporis odit consequatur sint sequi.
-          </p>
 
           <p class="text-xs font-medium">
             <div className="text-gray">

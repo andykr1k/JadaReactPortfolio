@@ -5,7 +5,8 @@ import yt from '../assets/logos/yt.png'
 import { motion } from 'framer-motion'
 export default function FrontPage() {
     return (
-      <div className='grid place-items-center'>
+      <div className='grid place-items-center mt-10'>
+        <div class="p-8 rounded-lg shadow-lg lg:p-12">
         <div className='lg:flex items-center text-center lg:space-x-12 p-10'>
             <div>
               <img src={headshot} className="w-48 m-auto lg:w-80	bg-purple-900 rounded-full"/>
@@ -25,6 +26,7 @@ export default function FrontPage() {
                 </a>
               </div>
             </div>
+        </div>
         </div>
       </div>
     )
