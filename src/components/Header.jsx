@@ -1,4 +1,5 @@
 import logo from "../assets/logos/tabicon.png"
+import { motion } from 'framer-motion'
 
 export default function Header() {
     return (
@@ -10,11 +11,11 @@ export default function Header() {
               </div>
 
               <nav class="hidden space-x-8 text-sm font-medium md:flex">
-                <a class="text-gray-500" href="/">Home</a>
-                <a class="text-gray-500" href="/new">New Releases</a>
-                <a class="text-gray-500" href="/movies">Films</a>
-                <a class="text-gray-500" href="/ad">Ad Spotlight</a>
-                <a class="text-gray-500" href="/contact">Contact</a>
+                <motion.a whileHover={{scale:1.4, color:"#581C87"}} class="text-gray-500" href="/">Home</motion.a>
+                <motion.a whileHover={{scale:1.4, color:"#581C87"}} class="text-gray-500" href="/new">New Releases</motion.a>
+                <motion.a whileHover={{scale:1.4, color:"#581C87"}} class="text-gray-500" href="/movies">Films</motion.a>
+                <motion.a whileHover={{scale:1.4, color:"#581C87"}} class="text-gray-500" href="/ad">Ad Spotlight</motion.a>
+                <motion.a whileHover={{scale:1.4, color:"#581C87"}} class="text-gray-500" href="/contact">Contact</motion.a>
               </nav>
 
               <div class="md:hidden">
