@@ -18,12 +18,12 @@ export default function FrontPage() {
                 <motion.a whileHover={{scale: 1.2}} className="w-8" href="https://instagram.com/jadaganim">
                 <img src={insta} />
                 </motion.a>
-                <a className="w-8" href="https://www.linkedin.com/in/jada-ganim/">
+                <motion.a whileHover={{scale: 1.2}} className="w-8" href="https://www.linkedin.com/in/jada-ganim/">
                 <img src={linkedin} />
-                </a>
-                <a className="w-8" href="https://www.youtube.com/channel/UCwjWRIlTnAnvnU1R6on0Ovg">
+                </motion.a>
+                <motion.a whileHover={{scale: 1.2}} className="w-8" href="https://www.youtube.com/channel/UCwjWRIlTnAnvnU1R6on0Ovg">
                 <img src={yt} />
-                </a>
+                </motion.a>
               </div>
             </div>
         </div>
