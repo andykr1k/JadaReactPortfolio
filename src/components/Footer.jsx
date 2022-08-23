@@ -10,17 +10,6 @@ export default function Footer() {
       <footer class="text-center">
       <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto space-y-4">
-        <div className='flex items-center space-x-4 justify-center p-2'>
-                <a className="w-6" href="https://instagram.com/jadaganim">
-                <img src={insta} />
-                </a>
-                <a className="w-6" href="https://www.linkedin.com/in/jada-ganim/">
-                <img src={linkedin} />
-                </a>
-                <a className="w-6" href="https://www.youtube.com/channel/UCwjWRIlTnAnvnU1R6on0Ovg">
-                <img src={yt} />
-                </a>
-          </div>
 
           <p class="text-xs font-medium">
             <div className="text-gray">
