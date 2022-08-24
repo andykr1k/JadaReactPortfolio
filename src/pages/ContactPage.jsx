@@ -2,22 +2,22 @@
 
 export default function ContactPage() {
     return (
-    <div class="min-h-screen">
+    <div class="grid place-items-center min-h-screen">
       <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
         <div class="grid">
           <div class="p-8 rounded-lg shadow-lg lg:p-12 lg:col-span-3">
-            <form class="space-y-4">
+            <form class="space-y-2 md:space-y-4">
             <h1 class="text-3xl font-bold text-purple-800 items-center text-center"> Contact Me </h1>
               <div>
                 <label class="sr-only" for="name">Name</label>
-                <input class="w-full p-3 text-sm rounded-lg" placeholder="Name" type="text" id="name" />
+                <input class="w-full p-3 text-sm rounded-lg border-2 border-purple-300" placeholder="Name" type="text" id="name" />
               </div>
 
               <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <div>
                   <label class="sr-only" for="email">Email</label>
                   <input
-                    class="w-full p-3 text-smrounded-lg"
+                    class="w-full p-3 text-sm rounded-lg border-2 border-purple-300"
                     placeholder="Email address"
                     type="email"
                     id="email"
@@ -27,7 +27,7 @@ export default function ContactPage() {
                 <div>
                   <label class="sr-only" for="phone">Phone</label>
                   <input
-                    class="w-full p-3 text-sm rounded-lg"
+                    class="w-full p-3 text-sm rounded-lg border-2 border-purple-300"
                     placeholder="Phone Number"
                     type="tel"
                     id="phone"
@@ -38,7 +38,7 @@ export default function ContactPage() {
               <div>
                 <label class="sr-only" for="message">Message</label>
                 <textarea
-                  class="w-full p-3 text-sm rounded-lg"
+                  class="w-full p-3 text-sm rounded-lg border-2 border-purple-300"
                   placeholder="Message"
                   rows="8"
                   id="message"
@@ -48,7 +48,7 @@ export default function ContactPage() {
               <div class="mt-4">
                 <button
                   type="submit"
-                  class="inline-flex items-center justify-center w-full px-5 py-3 text-black rounded-lg sm:w-auto"
+                  class="inline-flex items-center justify-center w-full px-5 py-3 text-black rounded-lg sm:w-auto border-2 border-black"
                 >
                   <span class="font-medium"> Send Enquiry </span>
 
