@@ -2,7 +2,7 @@
 
 export default function SpotlightPage() {
     return (
-      <div className="grid place-items-center">
+      <div className="grid place-items-center min-h-screen">
       <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
         <div class="grid place-items-center">
           <div class="p-4 rounded-lg shadow-lg lg:p-12 lg:col-span-3 space-y-2">

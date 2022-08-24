@@ -2,7 +2,7 @@
 
 export default function ContactPage() {
     return (
-    <div class="">
+    <div class="min-h-screen">
       <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
         <div class="grid">
           <div class="p-8 rounded-lg shadow-lg lg:p-12 lg:col-span-3">
